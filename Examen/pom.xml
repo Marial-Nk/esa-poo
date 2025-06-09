@@ -1,0 +1,15 @@
+<dependencies>
+    <!-- Dépendance pour JUnit 5 -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.7.1</version>
+        <scope>test</scope> <!-- Scope "test" signifie que cette dépendance est utilisée uniquement pour les tests -->
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.7.1</version>
+        <scope>test</scope> <!-- Pareil pour l'exécution des tests -->
+    </dependency>
+</dependencies>
